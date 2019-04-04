@@ -12,7 +12,7 @@ from services.provider import ItemsProvider
 def configure(binder: Binder) -> Binder:
     binder.bind(
         ItemsProvider,
-        ItemsProvider([{'Name': 'Test 1'}])
+        ItemsProvider([{'Name': 'Test 1'}, {'Name': 'Test 2'}])
     )
 
 
